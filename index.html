@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Interactive Rating Component</title>
+</head>
+
+<body>
+  <!-- CONTENEDOR PRINCIPAL -->
+  <main class="contenedor">
+    <!-- CARD -->
+    <article class="card">
+      <!-- CARD HEADER -->
+      <img class="estrella" src="images/icon-star.svg" alt="estrella">
+      <h1 class="titulo">How did we do?</h1>
+      <p class="parrafo">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <!-- CARD ZONA PUNTAJE -->
+      <form id="formulario" action="#" class="puntaje">
+        <input id="1" type="text" class="lista" value="1" readonly>
+        <input id="2" type="text" class="lista" value="2" readonly>
+        <input id="3" type="text" class="lista" value="3" readonly>
+        <input id="4" type="text" class="lista" value="4" readonly>
+        <input id="5" type="text" class="lista" value="5" readonly>
+        <button id="submit_btn" class="btn_submit" type="submit">SUBMIT</button>
+      </form>
+    </article>
+  </main>
+</body>
+
+</html>

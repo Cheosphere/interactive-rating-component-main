@@ -1,0 +1,186 @@
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: rgb(30, 30, 30);
+    color: hsl(0, 0%, 100%);
+}
+
+/* ESTILOS CONTENEDOR PRINCIPAL */
+.contenedor {
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    box-shadow: 0 0 40px rgb(36, 36, 36);
+}
+
+/* ESTILOS CARD */
+.card {
+    width: 412px;
+    height: 416px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(23, 30, 40, 1) 0%, rgb(30, 39, 48) 100%);
+}
+
+.card_thank {
+    padding: 2rem 2.3rem;
+}
+
+.estrella {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+.img_thank {
+    width: 35%;
+    align-self: center;
+}
+
+.span {
+    padding: .4rem 1.4rem .3rem 1.4rem;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 0.938rem;
+    font-weight: lighter;
+    color: hsl(25, 70%, 50%);
+    ;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.titulo_thank {
+    align-self: center;
+}
+
+.parrafo {
+    margin-top: -22px;
+    font-size: .96rem;
+    font-weight: 200;
+    line-height: 24px;
+    color: hsl(217, 12%, 63%);
+}
+
+.parrafo_thank {
+    text-align: center;
+    align-self: center;
+}
+
+.puntaje {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+/* ESTILOS ZONA PUNTAJE */
+input {
+    width: 50px;
+    height: 50px;
+    padding: .1rem 0 0 .1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    list-style: none;
+    font-family: 'Overpass', sans-serif;
+    font-size: .96rem;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    outline: none;
+}
+
+input:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+input:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.puntaje_activo {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.puntaje_activo:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn_submit {
+    width: 100%;
+    padding: .9rem 1rem;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .2rem;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.btn_submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.btn_submit:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn_regresar {
+    align-self: center;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 450px) {
+
+    .contenedor {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 90%;
+        transition: all .3s;
+        padding: 2rem 1.3rem;
+    }
+
+    input {
+        padding: 0.2rem;
+    }
+
+}
