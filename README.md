@@ -6,7 +6,7 @@ El desafío es desarrollar este componente de calificación interactivo y lograr
 - CSS
 - JS Vanilla
 
-![desktop-preview](https://user-images.githubusercontent.com/112582420/188037514-8d97b33c-2113-4bfe-9c0d-bb8ab740aacc.jpg)
+![desktop-design](https://user-images.githubusercontent.com/112582420/188211753-c163e130-1afa-4d31-955f-124b73692f03.jpg)
 
 # Guía de Estilo
 
