@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     background-color: hsl(216, 12%, 8%);
     box-shadow: 0 0 40px rgb(36, 36, 36);
+    transition: all .4s ease-in-out;
 }
 
 /* ESTILOS CARD */
@@ -131,7 +132,7 @@ input:active {
 }
 
 .puntaje_activo {
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
 
