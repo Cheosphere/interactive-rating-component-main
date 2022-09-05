@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Overpass', sans-serif;
-    background-color: rgb(30, 30, 30);
+    background-color: hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
 }
 
@@ -27,8 +27,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: hsl(216, 12%, 8%);
-    box-shadow: 0 0 40px rgb(36, 36, 36);
     transition: all .4s ease-in-out;
 }
 
