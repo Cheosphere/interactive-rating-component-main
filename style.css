@@ -7,10 +7,12 @@
 
 html,
 body {
+    width: 100%;
     height: 100%;
 }
 
 body {
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +24,7 @@ body {
 /* ESTILOS CONTENEDOR PRINCIPAL */
 .contenedor {
     width: 1440px;
-    height: 800px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,18 +169,6 @@ input:active {
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 670px) {
-
-    body {
-        min-height: 600px;
-    }
-
-    .contenedor {
-        height: fit-content;
-    }
-
-}
-
 @media screen and (max-width: 450px) {
 
     .contenedor {
