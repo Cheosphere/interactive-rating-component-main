@@ -167,6 +167,18 @@ input:active {
 }
 
 /* MEDIA QUERY */
+@media screen and (max-width: 670px) {
+
+    body {
+        min-height: 600px;
+    }
+
+    .contenedor {
+        height: fit-content;
+    }
+
+}
+
 @media screen and (max-width: 450px) {
 
     .contenedor {
