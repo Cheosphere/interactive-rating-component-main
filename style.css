@@ -36,6 +36,7 @@ body {
 .card {
     width: 412px;
     height: 416px;
+    margin-top: 5px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -73,6 +74,7 @@ body {
 }
 
 .titulo {
+    margin-top: 5px;
     font-size: 1.8rem;
     font-weight: 400;
 }
@@ -96,6 +98,7 @@ body {
 
 .puntaje {
     width: 100%;
+    padding-right: .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
