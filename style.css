@@ -185,8 +185,21 @@ input:active {
         padding: 2rem 1.3rem;
     }
 
+    .puntaje {
+        padding-right: 0;        
+    }
+
     input {
         padding: 0.2rem;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+
+    input {
+        width: 44px;
+        height: 44px;
+    }
+    
 }
